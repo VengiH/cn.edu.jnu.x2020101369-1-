@@ -21,7 +21,7 @@ public class BowlingGameUnitTest {
             game.roll(0);
         }
 
-        assertEquals(10,game.score(0));
+        assertEquals(0,game.score(0));
 
     }
 }
